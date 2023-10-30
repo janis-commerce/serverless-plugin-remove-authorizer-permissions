@@ -48,6 +48,7 @@ describe('ServerlessPluginRemoveAuthorizerPermissions', () => {
 		const testConfig = cloneDeep(serverless);
 		testConfig.service.provider.compiledCloudFormationTemplate.Resources.MyAuthorizerLambdaPermissionApiGateway = {};
 		testConfig.service.provider.compiledCloudFormationTemplate.Resources.SomeOtherAuthorizerLambdaPermissionApiGateway = {};
+		testConfig.service.provider.compiledCloudFormationTemplate.Resources.SomeOtherAuthorizerLambdaPermissionWebsockets = {};
 
 		const serverlessPluginRemoveAuthorizerPermissions = new ServerlessPluginRemoveAuthorizerPermissions(testConfig);
 		serverlessPluginRemoveAuthorizerPermissions.removePermissions();
