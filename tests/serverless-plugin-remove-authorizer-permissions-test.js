@@ -4,7 +4,7 @@ const assert = require('assert');
 
 const cloneDeep = require('lodash.clonedeep');
 
-const ServerlessPluginRemoveAuthorizerPermissions = require('../');
+const ServerlessPluginRemoveAuthorizerPermissions = require('..');
 
 describe('ServerlessPluginRemoveAuthorizerPermissions', () => {
 

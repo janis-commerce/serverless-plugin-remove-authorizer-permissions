@@ -18,12 +18,12 @@
   "license": "ISC",
   "homepage": "https://github.com/janis-commerce/serverless-plugin-remove-authorizer-permissions.git#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
     "husky": "^2.4.1",
-    "mocha": "^5.2.0",
-    "nyc": "^13.1.0"
+    "mocha": "^10.8.2",
+    "nyc": "^15.1.0"
   },
   "files": [
     "lib/"
